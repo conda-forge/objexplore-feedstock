@@ -1,5 +1,5 @@
 {% set name = "objexplore" %}
-{% set version = "1.6.1" %}
+{% set version = "1.6.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/objexplore-{{ version }}.tar.gz
-  sha256: 3061075bb58ba257647f29100faef5b2f550559f211224d1a503c43f7b0571a2
+  sha256: 089cb060c1c67ab5d40e0dec6e0244b581eab0f3f99f24e74f45f82b3ecdc28c
 
 build:
   number: 0
