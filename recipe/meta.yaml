@@ -21,6 +21,7 @@ requirements:
     - pip
     - python {{ python_min }}
     - rich ==10.9.0
+    - setuptools
   run:
     - blessed ==1.17.12
     - python >={{ python_min }}
